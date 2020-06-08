@@ -1,4 +1,4 @@
-//
+Ôªø//
 // Copyright 2020 Electronic Arts Inc.
 //
 // TiberianDawn.DLL and RedAlert.dll and corresponding source code is free 
@@ -159,7 +159,7 @@ const char* NewName[] = {
 	"Scout Ant",	  			"Kundschafter-Ameise",
 	"Warrior Ant",    		"Krieger-Ameise",
 	"Fire Ant",	  				"Feuer-Ameise",
-	"Queen Ant",	  			"Ameisenkînigin",
+	"Queen Ant",	  			"AmeisenkÊîèigin",
 	"ATS",						"Angriffs-U-Boot",
 	"Tesla Tank",	  			"Telsapanzer",
 	"Volkov",  					"Modell Volkov",
@@ -175,7 +175,7 @@ const char* NewName[] = {
 #ifdef FRENCH
 const char* NewName[] = {
 	"Scout Ant",	  			"Fourmi de Reconnaissance",
-	"Warrior Ant",    		"Fourmi Guerriäre",
+	"Warrior Ant",    		"Fourmi GuerriÂ¶ëe",
 	"Fire Ant",	  				"Fourmi Lance-Flammes",
 	"Queen Ant",	  			"Reine des Fourmis",
 	"ATS", 						"SMTA",
@@ -183,9 +183,9 @@ const char* NewName[] = {
 	"Volkov",  					"Volkov",
 	"Chitzkoi", 				"Cyber-Chien",
 	"Stavros",					"Stavros",
-	"F-A Longbow",				"HAA (HÇlicoptäre d'Assaut AvancÇ)",
-	"Civilian Specialist",	"SpÇcialiste Civil",
-	"Alloy Facility",			"Usine MÇtallurgique",
+	"F-A Longbow",				"HAA (H‰øµicoptÂ¶ëe d'Assaut Avanc?",
+	"Civilian Specialist",	"Sp‰ø¢ialiste Civil",
+	"Alloy Facility",			"Usine MÂÄÄallurgique",
 	NULL,
 	};
 

@@ -1,4 +1,4 @@
-//
+ï»¿//
 // Copyright 2020 Electronic Arts Inc.
 //
 // TiberianDawn.DLL and RedAlert.dll and corresponding source code is free 
@@ -304,26 +304,26 @@ void UnitClass::Debug_Dump(MonoClass *mono) const
 	Validate();
 	mono->Set_Cursor(0, 0);
 	mono->Print(
-		"ÚName:ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂMission:ÄÄÄÂTarCom:ÂNavCom:ÂRadio:ÂCoord:ÄÄÂHeadTo:ÄÂSt:Ä¿\n"
-		"³                   ³           ³       ³       ³      ³        ³        ³    ³\n"
-		"ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂNÂYÂHealth:ÄÂBody:ÂTurret:ÂSpeed:ÂPath:ÁÄÄÄÄÄÄÂCargo:ÄÄÄÄÁÄÄÄÄ´\n"
-		"³Active........³ ³ ³        ³     ³       ³      ³            ³               ³\n"
-		"³Limbo.........³ ³ ÃÄÄÄÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´\n"
-		"³Owned.........³ ³ ³Last Message:                                             ³\n"
-		"³Discovered....³ ³ ÃTimer:ÂArm:ÂTrack:ÂTiberium:ÂFlash:ÂStage:ÂTeam:ÄÄÄÄÂArch:´\n"
-		"³Selected......³ ³ ³      ³    ³      ³         ³      ³      ³         ³     ³\n"
-		"³Teathered.....³ ³ ÃÄÄÄÄÄÄÁÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÙ\n"
-		"³Locked on Map.³ ³ ³                                                           \n"
-		"³Turret Locked.³ ³ ³                                                           \n"
-		"³Is A Loaner...³ ³ ³                                                           \n"
-		"³Deploying.....³ ³ ³                                                           \n"
-		"³Rotating......³ ³ ³                                                           \n"
-		"³Firing........³ ³ ³                                                           \n"
-		"³Driving.......³ ³ ³                                                           \n"
-		"³To Look.......³ ³ ³                                                           \n"
-		"³Recoiling.....³ ³ ³                                                           \n"
-		"³To Display....³ ³ ³                                                           \n"
-		"ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÁÄÙ                                                           \n");
+		"è´œame:å“ªå“ªå“ªå“ªå“ªå“ªå“ªç¿¸ission:å“ªç©†TarCom:ç¿¹avCom:ç¿¿adio:ç¿ªoord:å“ªç¿²eadTo:ç©†St:ç›®\n"
+		"?                  ?          ?      ?      ?     ?       ?       ?   ç ›n"
+		"åªšå“ªå“ªå“ªå“ªå“ªå“ªç©†Nè€ç¿²ealth:ç©†Body:è€‡urret:è€‚peed:ç¿½ath:èŠå“ªå“ªç©†Cargo:å“ªå“ªèŠå“ªæ‹‡\n"
+		"çŸ¨ctive........???       ?    ?      ?     ?           ?              ç ›n"
+		"çŸ»imbo.........??åªšå“ªå“ªå“ªç‰§å“ªå“ªç‰§å“ªå“ªå“ªç‰§å“ªå“ªå“ªèŠå“ªå“ªå“ªå“ªå“ªç‰§å“ªå“ªå“ªå“ªå“ªå“ªå“ªæ‹‡\n"
+		"ç „wned.........??çŸ»ast Message:                                             ç ›n"
+		"çŸ°iscovered....??è‚¨imer:ç¿§rm:è€‡rack:è€‡iberium:ç¿­lash:è€‚tage:è€‡eam:å“ªå“ªç¿§rch:ç¢¶n"
+		"ç ˆelected......???     ?   ?     ?        ?     ?     ?        ?    ç ›n"
+		"ç Šeathered.....??åªšå“ªå“ªç‰§å“ªå“ªèŠå“ªå“ªç‰§å“ªå“ªå“ªå“ªç‰§å“ªå“ªå“ªèŠå“ªå“ªç‰§å“ªå“ªå“ªå“ªç‰§å“ªå“ªé¦\n"
+		"çŸ»ocked on Map.???                                                          \n"
+		"ç Šurret Locked.???                                                          \n"
+		"çŸ·s A Loaner...???                                                          \n"
+		"çŸ°eploying.....???                                                          \n"
+		"ç ‡otating......???                                                          \n"
+		"çŸ²iring........???                                                          \n"
+		"çŸ°riving.......???                                                          \n"
+		"ç Šo Look.......???                                                          \n"
+		"ç ‡ecoiling.....???                                                          \n"
+		"ç Šo Display....???                                                          \n"
+		"æ»¥å“ªå“ªå“ªå“ªå“ªå“ªç‰§ç‰§é¦                                                           \n");
 	mono->Set_Cursor(1, 1);mono->Printf("%s:%s", House->Class->IniName, Class->IniName);
 	CargoClass::Debug_Dump(mono);
 	MissionClass::Debug_Dump(mono);

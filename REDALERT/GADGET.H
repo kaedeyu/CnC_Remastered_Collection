@@ -1,4 +1,4 @@
-//
+Ôªø//
 // Copyright 2020 Electronic Arts Inc.
 //
 // TiberianDawn.DLL and RedAlert.dll and corresponding source code is free 
@@ -30,55 +30,55 @@
  *                                                                                             *
  *                                                                                             *
  *        LinkClass [This is the linked list manager class. It keeps a record                  *
- *            ≥      of the next and previous gadget in the list. It is possible               *
- *            ≥      delete a gadget out of the middle of the list with this                   *
- *            ≥      class.]                                                                   *
- *            ≥                                                                                *
+ *            ?     of the next and previous gadget in the list. It is possible               *
+ *            ?     delete a gadget out of the middle of the list with this                   *
+ *            ?     class.]                                                                   *
+ *            ?                                                                               *
  *       GadgetClass [The is the basic gadget class. It handles processing of                  *
- *            ≥       input events and dispatching the appropriate functions.                  *
- *            ≥       All gadgets must be derived from this class.]                            *
- *            √ƒƒƒƒø                                                                           *
- *            ≥    ≥                                                                           *
- *            ≥  ListClass [This list class functions like a list box does in Windows. It      *
- *            ≥             keeps track of a list of text strings. This list can be            *
- *            ≥             scrolled and an item selected. If the list becomes larger than     *
- *            ≥             can be completely displayed, it will automatically create a        *
- *            ≥             slider (at the right edge) to manage the scrolling.]               *
- *            ≥                                                                                *
+ *            ?      input events and dispatching the appropriate functions.                  *
+ *            ?      All gadgets must be derived from this class.]                            *
+ *            Â™öÂì™ÁõÆ                                                                           *
+ *            ?   ?                                                                          *
+ *            ? ListClass [This list class functions like a list box does in Windows. It      *
+ *            ?            keeps track of a list of text strings. This list can be            *
+ *            ?            scrolled and an item selected. If the list becomes larger than     *
+ *            ?            can be completely displayed, it will automatically create a        *
+ *            ?            slider (at the right edge) to manage the scrolling.]               *
+ *            ?                                                                               *
  *      ControlClass [This class adds the concept of giving an ID number to the                *
- *            ≥       gadget. This ID can then be returned from the Input()                    *
- *            ≥       function as if it were a pseudo-keystroke. Additionally,                 *
- *            ≥       the ability to inform another button that this button has                *
- *            ≥       been actioned is allowed. This ability allows one button                 *
- *            ≥       to watch what happens to another button. Example: a list                 *
- *            ≥       box gadget can tell when an attached slider has been                     *
- *            ≥       touched.]                                                                *
- *    ⁄ƒƒƒƒƒƒƒ≈ƒƒƒƒø                                                                           *
- *    ≥       ≥    ≥                                                                           *
- *    ≥       ≥  GaugeClass [This class looks similar to Windows slider, but has               *
- *    ≥       ≥    ≥         a different controlling logic. There is no thumb and              *
- *    ≥       ≥    ≥         it serves as a simple variable control setting. This              *
- *    ≥       ≥    ≥         is analogous to a volume slider.]                                 *
- *    ≥       ≥    ≥                                                                           *
- *    ≥       ≥ SliderClass [The slider class is similar to the typical Windows slider. It     *
- *    ≥       ≥              has a current setting, a thumb, and a controllable scale. This    *
- *    ≥       ≥              is the object created to handle a scrolling list box.]            *
- *    ≥       ≥                                                                                *
- *    ≥   EditClass                                                                            *
- *    ≥                                                                                        *
- *    ≥                                                                                        *
+ *            ?      gadget. This ID can then be returned from the Input()                    *
+ *            ?      function as if it were a pseudo-keystroke. Additionally,                 *
+ *            ?      the ability to inform another button that this button has                *
+ *            ?      been actioned is allowed. This ability allows one button                 *
+ *            ?      to watch what happens to another button. Example: a list                 *
+ *            ?      box gadget can tell when an attached slider has been                     *
+ *            ?      touched.]                                                                *
+ *    Ë∞ÄÂì™Âì™Âì™ÊãçÂì™ÁõÆ                                                                           *
+ *    ?      ?   ?                                                                          *
+ *    ?      ? GaugeClass [This class looks similar to Windows slider, but has               *
+ *    ?      ?   ?        a different controlling logic. There is no thumb and              *
+ *    ?      ?   ?        it serves as a simple variable control setting. This              *
+ *    ?      ?   ?        is analogous to a volume slider.]                                 *
+ *    ?      ?   ?                                                                          *
+ *    ?      ?SliderClass [The slider class is similar to the typical Windows slider. It     *
+ *    ?      ?             has a current setting, a thumb, and a controllable scale. This    *
+ *    ?      ?             is the object created to handle a scrolling list box.]            *
+ *    ?      ?                                                                               *
+ *    ?  EditClass                                                                            *
+ *    ?                                                                                       *
+ *    ?                                                                                       *
  * ToggleClass [The toggle class is used for buttons that have an image and behave just        *
- *    ≥         like the buttons in Windows do. That is, they have a separate visual for       *
- *    ≥         when they are pressed and raised. They are officially triggered (return        *
- *    ≥         their ID number) when the mouse button is released while over the button.      *
- *    ≥         This class doesn't perform any rendering itself. It merely provides the        *
- *    ≥         logic so that the derived classes will function correctly.]                    *
- *  ⁄ƒ¡ƒƒƒƒø                                                                                   *
- *  ≥      ≥                                                                                   *
- *  ≥   TextButtonClass [The text button functions like a normal Windows style button, but     *
- *  ≥                    the imagery is based on text that is displayed on the button. A       *
- *  ≥                    typical example would be the "OK" or "Cancel" buttons.]               *
- *  ≥                                                                                          *
+ *    ?        like the buttons in Windows do. That is, they have a separate visual for       *
+ *    ?        when they are pressed and raised. They are officially triggered (return        *
+ *    ?        their ID number) when the mouse button is released while over the button.      *
+ *    ?        This class doesn't perform any rendering itself. It merely provides the        *
+ *    ?        logic so that the derived classes will function correctly.]                    *
+ *  Ë∞ÄËÅäÂì™ÁõÆ                                                                                   *
+ *  ?     ?                                                                                  *
+ *  ?  TextButtonClass [The text button functions like a normal Windows style button, but     *
+ *  ?                   the imagery is based on text that is displayed on the button. A       *
+ *  ?                   typical example would be the "OK" or "Cancel" buttons.]               *
+ *  ?                                                                                         *
  * ShapeButtonClass [The shape buttons is similar to the TextButton but instead of text        *
  *                   being used to give the button its imagery, an actual shape is used        *
  *                   instead. This allows graphic buttons. These are similar to the up/down    *

@@ -1,4 +1,4 @@
-//
+Ôªø//
 // Copyright 2020 Electronic Arts Inc.
 //
 // TiberianDawn.DLL and RedAlert.dll and corresponding source code is free 
@@ -178,16 +178,16 @@ const char* XlatNames[] = {
 	"Harte Verhandlungen",			  //	"SCG47EA",		// Negotiations
 	"Ferngelenktes Kriegsspielzeug",//	"SCG45EA",		// Monster Tank Madness
 	"Licht aus",						  //	"SCG44EA",		// Time Flies
-	"Molekulare KriegsfÅhrung",	  //	"SCG48EA",		// Absolut MADness
+	"Molekulare Kriegsf‰π≠rung",	  //	"SCG48EA",		// Absolut MADness
 	"Bauernopfer",						  //	"SCG46EA",		// Pawn
 
-	"TestgelÑnde",						  //	"SCU43EA",		// Testing Grounds
+	"TestgelÂàµde",						  //	"SCU43EA",		// Testing Grounds
 	"Schocktherapie",					  //	"SCU40EA",		// Shock Therapy
 	"Der Letzte seiner Art",		  //	"SCU42EA",		// Let's Make a Steal
 	"Probefahrt",						  //	"SCU41EA",		// Test Drive
 	"Schlaftrunk",						  //	"SCU45EA",		// Don't Drink The Water
-	"Der jÅngste Tag",				  //	"SCU44EA",		// Situation Critical
-	"WaffenbrÅder",					  //	"SCU46EA",		// Brothers in Arms
+	"Der j‰π∂gste Tag",				  //	"SCU44EA",		// Situation Critical
+	"Waffenbr‰π®er",					  //	"SCU46EA",		// Brothers in Arms
 	"Deus Ex Machina",				  //	"SCU47EA",		// Deus Ex Machina
 	"Die Replikanten von Grunyev",  //	"SCU48EA",		// Grunyev Revolution
 
@@ -202,39 +202,39 @@ const char* XlatNames[] = {
 	"Gaz Sarin 1: Ravitaillement Fatal",
 	"Gaz Sarin 2: En Sous-sol",
 	"Gaz Sarin 3: Attaque Chirurgicale",
-	"Gräce OccupÇe 1: Guerre PrivÇe",
-	"Gräce OccupÇe 2: Evacuation",
-	"Conflit SibÇrien 1: Traces Fraåches",
-	"Conflit SibÇrien 2: Pris au Piäge",
-	"Conflit SibÇrien 3: Terres de Glace",
-	"Mise Ö l'Epreuve",
-	"AssiÇgÇs",
-	"La Souriciäre",
-	"L'HÇritage de Tesla",
+	"GrÂ•µe Occup‰ø• 1: Guerre Priv‰ø•",
+	"GrÂ•µe Occup‰ø• 2: Evacuation",
+	"Conflit Sib‰øΩien 1: Traces FraÂÆëhes",
+	"Conflit Sib‰øΩien 2: Pris au PiÂ•ºe",
+	"Conflit Sib‰øΩien 3: Terres de Glace",
+	"Mise ?l'Epreuve",
+	"Assi‰ø´‰øø",
+	"La SouriciÂ¶ëe",
+	"L'H‰øΩitage de Tesla",
 	"Tandem de Choc",
 	"Jusqu'au Sommet du Monde",
 	"Effets Secondaires",
-	"Intensification nuclÇaire",
+	"Intensification nucl‰øõire",
 #ifdef FIXIT_CSII	//	checked - ajw 9/28/98
 "Le vieux port",				//	"SCG43EA",		// Harbor Reclamation
-"Juste Ö temps",				//	"SCG41EA",		// In the nick of time
+"Juste ?temps",				//	"SCG41EA",		// In the nick of time
 "La main dans le sac",		//	"SCG40EA",		// Caught in the act
 "Production interrompue",	//	"SCG42EA",		// Production Disruption
-"NÇgociations",				//	"SCG47EA",		// Negotiations
+"N‰ø´ociations",				//	"SCG47EA",		// Negotiations
 "Tanks en folie!",			//	"SCG45EA",		// Monster Tank Madness
 "Le temps passe",				//	"SCG44EA",		// Time Flies
-"DÇmence absolue",			//	"SCG48EA",		// Absolut MADness
+"D‰ø∂ence absolue",			//	"SCG48EA",		// Absolut MADness
 "Le pion",						//	"SCG46EA",		// Pawn
 
 "Terrains d'essais",			//	"SCU43EA",		// Testing Grounds
-"ThÇrapie de choc",			//	"SCU40EA",		// Shock Therapy
+"Th‰øΩapie de choc",			//	"SCU40EA",		// Shock Therapy
 "Au voleur!",					//	"SCU42EA",		// Let's Make a Steal
 "Essai de conduite",			//	"SCU41EA",		// Test Drive
 "Ne buvez pas la tasse",	//	"SCU45EA",		// Don't Drink The Water
 "Situation critique",		//	"SCU44EA",		// Situation Critical
-"Fräres d'armes",				//	"SCU46EA",		// Brothers in Arms
+"FrÂ¶ëes d'armes",				//	"SCU46EA",		// Brothers in Arms
 "Deus Ex Machina",			//	"SCU47EA",		// Deus Ex Machina
-"La RÇvolution de Grunyev",//	"SCU48EA",		// Grunyev Revolution
+"La RÂÄÇolution de Grunyev",//	"SCU48EA",		// Grunyev Revolution
 
 #endif
 

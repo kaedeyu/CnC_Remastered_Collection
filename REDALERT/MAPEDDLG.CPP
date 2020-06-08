@@ -1,4 +1,4 @@
-//
+ï»¿//
 // Copyright 2020 Electronic Arts Inc.
 //
 // TiberianDawn.DLL and RedAlert.dll and corresponding source code is free 
@@ -398,21 +398,21 @@ int MapEditClass::Save_Scenario(void)
  *   - House (GDI, NOD)                                                    *
  *   - Scenario #                                                          *
  *                                                                         *
- *           ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                          *
- *           ³            Caption               ³                          *
- *           ³                                  ³                          *
- *           ³         Scenario ___             ³                          *
- *           ³          Version ___             ³                          *
- *           ³                                  ³                          *
- *           ³         [East]  [West]           ³                          *
- *           ³                                  ³                          *
- *           ³         [    GDI     ]           ³                          *
- *           ³         [    NOD     ]           ³                          *
- *           ³         [Multi-Player]           ³                          *
- *           ³                                  ³                          *
- *           ³         [OK]  [Cancel]           ³                          *
- *           ³                                  ³                          *
- *           ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                          *
+ *           è°€å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªç›®                          *
+ *           ?           Caption               ?                         *
+ *           ?                                 ?                         *
+ *           ?        Scenario ___             ?                         *
+ *           ?         Version ___             ?                         *
+ *           ?                                 ?                         *
+ *           ?        [East]  [West]           ?                         *
+ *           ?                                 ?                         *
+ *           ?        [    GDI     ]           ?                         *
+ *           ?        [    NOD     ]           ?                         *
+ *           ?        [Multi-Player]           ?                         *
+ *           ?                                 ?                         *
+ *           ?        [OK]  [Cancel]           ?                         *
+ *           ?                                 ?                         *
+ *           æ»¥å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªé¦                          *
  *                                                                         *
  * INPUT:                                                                  *
  *      caption      string to use as a title                              *
@@ -895,26 +895,26 @@ int MapEditClass::Pick_Scenario(char const * caption, int & scen_nump, ScenarioP
  * properly exit the screen, since they have a blank undisplayed cell to   *
  * exit onto.                                                              *
  *                                                                         *
- *   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿               *
- *   ³                                                     ³               *
- *   ³  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   Clear Terrain            ³               *
- *   ³  ³                     ³   Water                    ³               *
- *   ³  ³                     ³   Tiberium                 ³               *
- *   ³  ³                     ³   Rock/Wall/Road           ³               *
- *   ³  ³     (Map Area)      ³   GDI Unit                 ³               *
- *   ³  ³                     ³   NOD Unit                 ³               *
- *   ³  ³                     ³   Neutral Unit             ³               *
- *   ³  ³                     ³   Terrain Object           ³               *
- *   ³  ³                     ³   Starting Cell            ³               *
- *   ³  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                            ³               *
- *   ³                                                     ³               *
- *   ³      X            Y            Width      Height    ³               *
- *   ³      ##           ##            ##          ##      ³               *
- *   ³                                                     ³               *
- *   ³                                                     ³               *
- *   ³               [OK]            [Cancel]              ³               *
- *   ³                                                     ³               *
- *   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ               *
+ *   è°€å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ª?              *
+ *   ?                                                    ?              *
+ *   ? è°€å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ª?  Clear Terrain            ?              *
+ *   ? ?                    ?  Water                    ?              *
+ *   ? ?                    ?  Tiberium                 ?              *
+ *   ? ?                    ?  Rock/Wall/Road           ?              *
+ *   ? ?    (Map Area)      ?  GDI Unit                 ?              *
+ *   ? ?                    ?  NOD Unit                 ?              *
+ *   ? ?                    ?  Neutral Unit             ?              *
+ *   ? ?                    ?  Terrain Object           ?              *
+ *   ? ?                    ?  Starting Cell            ?              *
+ *   ? æ»¥å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ª?                           ?              *
+ *   ?                                                    ?              *
+ *   ?     X            Y            Width      Height    ?              *
+ *   ?     ##           ##            ##          ##      ?              *
+ *   ?                                                    ?              *
+ *   ?                                                    ?              *
+ *   ?              [OK]            [Cancel]              ?              *
+ *   ?                                                    ?              *
+ *   æ»¥å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ª?              *
  *                                                                         *
  * INPUT:                                                                  *
  *      x,y,w,h:      initial size parameters (-1 = center the thing)      *
@@ -2476,22 +2476,22 @@ void MapEditClass::Handle_Triggers(void)
  *                                                                         *
  * CurTrigger can be NULL when this function is called.                    *
  *                                                                         *
- *    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿           *
- *    ³                       Triggers                         ³           *
- *    ³    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿    ³           *
- *    ³    ³ Name     Event     Action    House   Team  ³³    ³           *
- *    ³    ³ Name     Event     Action    House   Team  ÃÄ´    ³           *
- *    ³    ³ Name     Event     Action    House   Team  ³ ³    ³           *
- *    ³    ³ Name     Event     Action    House   Team  ³ ³    ³           *
- *    ³    ³                                            ³ ³    ³           *
- *    ³    ³                                            ³ ³    ³           *
- *    ³    ³                                            ÃÄ´    ³           *
- *    ³    ³                                            ³³    ³           *
- *    ³    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ    ³           *
- *    ³                                                        ³           *
- *    ³      [Edit]        [New]        [Delete]      [OK]     ³           *
- *    ³                                                        ³           *
- *    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ           *
+ *    è°€å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªç›®           *
+ *    ?                      Triggers                         ?          *
+ *    ?   è°€å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªç©†ç›®    ?          *
+ *    ?   ?Name     Event     Action    House   Team  ??   ?          *
+ *    ?   ?Name     Event     Action    House   Team  åªš?   ?          *
+ *    ?   ?Name     Event     Action    House   Team  ??   ?          *
+ *    ?   ?Name     Event     Action    House   Team  ??   ?          *
+ *    ?   ?                                           ??   ?          *
+ *    ?   ?                                           ??   ?          *
+ *    ?   ?                                           åªš?   ?          *
+ *    ?   ?                                           ??   ?          *
+ *    ?   æ»¥å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªç‰§é¦    ?          *
+ *    ?                                                       ?          *
+ *    ?     [Edit]        [New]        [Delete]      [OK]     ?          *
+ *    ?                                                       ?          *
+ *    æ»¥å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªé¦           *
  *                                                                         *
  * INPUT:                                                                  *
  *      none.                                                              *

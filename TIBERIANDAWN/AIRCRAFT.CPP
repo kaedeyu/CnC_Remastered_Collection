@@ -1,4 +1,4 @@
-//
+ï»¿//
 // Copyright 2020 Electronic Arts Inc.
 //
 // TiberianDawn.DLL and RedAlert.dll and corresponding source code is free 
@@ -1960,26 +1960,26 @@ void AircraftClass::Debug_Dump(MonoClass *mono) const
 	Validate();
 	mono->Set_Cursor(0, 0);
 	mono->Print(
-		"ÚName:ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂMission:ÄÄÄÂTarCom:ÂNavCom:ÂRadio:ÂCoord:ÄÄÂAltitudeÂSt:Ä¿\n"
-		"³                   ³           ³       ³       ³      ³        ³        ³    ³\n"
-		"ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂNÂYÂHealth:ÄÂFdir:ÂÄBdir:ÄÂSpeed:ÂÄÄÄÄÄÁÄÄÄÄÄÄÂCargo:ÄÄÄÄÁÄÄÄÄ´\n"
-		"³Active........³ ³ ³        ³     ³       ³      ³            ³               ³\n"
-		"³Limbo.........³ ³ ÃÄÄÄÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´\n"
-		"³Owned.........³ ³ ³Last Message:                                             ³\n"
-		"³Discovered....³ ³ ÃTimer:ÂArm:ÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂFlash:ÂStage:ÂTeam:ÄÄÄÄÂArch:´\n"
-		"³Selected......³ ³ ³      ³    ³      ³         ³      ³      ³         ³     ³\n"
-		"³Teathered.....³ ³ ÃÄÄÄÄÄÄÁÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÙ\n"
-		"³Locked on Map.³ ³ ³                                                           \n"
-		"³              ³ ³ ³                                                           \n"
-		"³Is A Loaner...³ ³ ³                                                           \n"
-		"³Is Landing....³ ³ ³                                                           \n"
-		"³Is Taking Off.³ ³ ³                                                           \n"
-		"³              ³ ³ ³                                                           \n"
-		"³              ³ ³ ³                                                           \n"
-		"³              ³ ³ ³                                                           \n"
-		"³Recoiling.....³ ³ ³                                                           \n"
-		"³To Display....³ ³ ³                                                           \n"
-		"ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÁÄÙ                                                           \n");
+		"è´œame:å“ªå“ªå“ªå“ªå“ªå“ªå“ªç¿¸ission:å“ªç©†TarCom:ç¿¹avCom:ç¿¿adio:ç¿ªoord:å“ªç¿§ltitudeè€‚t:ç›®\n"
+		"?                  ?          ?      ?      ?     ?       ?       ?   ç ›n"
+		"åªšå“ªå“ªå“ªå“ªå“ªå“ªç©†Nè€ç¿²ealth:ç©†Fdir:å±¥Bdir:ç©†Speed:å±¥å“ªå“ªèŠå“ªå“ªç©†Cargo:å“ªå“ªèŠå“ªæ‹‡\n"
+		"çŸ¨ctive........???       ?    ?      ?     ?           ?              ç ›n"
+		"çŸ»imbo.........??åªšå“ªå“ªå“ªç‰§å“ªå“ªç‰§å“ªå“ªå“ªç‰§å“ªå“ªå“ªèŠå“ªå“ªå“ªå“ªå“ªç‰§å“ªå“ªå“ªå“ªå“ªå“ªå“ªæ‹‡\n"
+		"ç „wned.........??çŸ»ast Message:                                             ç ›n"
+		"çŸ°iscovered....??è‚¨imer:ç¿§rm:å±¥å“ªå“ªç©†å“ªå“ªå“ªå“ªç©†Flash:è€‚tage:è€‡eam:å“ªå“ªç¿§rch:ç¢¶n"
+		"ç ˆelected......???     ?   ?     ?        ?     ?     ?        ?    ç ›n"
+		"ç Šeathered.....??åªšå“ªå“ªç‰§å“ªå“ªèŠå“ªå“ªç‰§å“ªå“ªå“ªå“ªç‰§å“ªå“ªå“ªèŠå“ªå“ªç‰§å“ªå“ªå“ªå“ªç‰§å“ªå“ªé¦\n"
+		"çŸ»ocked on Map.???                                                          \n"
+		"?             ???                                                          \n"
+		"çŸ·s A Loaner...???                                                          \n"
+		"çŸ·s Landing....???                                                          \n"
+		"çŸ·s Taking Off.???                                                          \n"
+		"?             ???                                                          \n"
+		"?             ???                                                          \n"
+		"?             ???                                                          \n"
+		"ç ‡ecoiling.....???                                                          \n"
+		"ç Šo Display....???                                                          \n"
+		"æ»¥å“ªå“ªå“ªå“ªå“ªå“ªç‰§ç‰§é¦                                                           \n");
 	mono->Set_Cursor(1, 1);mono->Printf("%s:%s", House->Class->IniName, Class->IniName);
 	mono->Set_Cursor(36, 3);mono->Printf("%02X:%02X", SecondaryFacing.Current(), SecondaryFacing.Desired());
 	mono->Set_Cursor(42, 1);mono->Printf("%04X", NavCom);

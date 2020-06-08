@@ -1,4 +1,4 @@
-//
+ï»¿//
 // Copyright 2020 Electronic Arts Inc.
 //
 // TiberianDawn.DLL and RedAlert.dll and corresponding source code is free 
@@ -730,31 +730,31 @@ void CommQueueClass::Mono_Debug_Print(int refresh)
 	*/
 	if (refresh) {
 		Mono_Clear_Screen ();
-		Mono_Printf("ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿\n");
-		Mono_Printf("³                                                                             ³\n");
-		Mono_Printf("³                                                                             ³\n");
-		Mono_Printf("³                                                                             ³\n");
-		Mono_Printf("ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´\n");
-		Mono_Printf("³              Send Queue              ³             Receive Queue            ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³ ID  Ct ACK   ID  Ct ACK    ID  Ct ACK³ ID  Rd ACK    ID  Rd ACK   ID  Rd ACK³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ");
+		Mono_Printf("è°€å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªç¸—n");
+		Mono_Printf("?                                                                            ç ›n");
+		Mono_Printf("?                                                                            ç ›n");
+		Mono_Printf("?                                                                            ç ›n");
+		Mono_Printf("åªšå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªç©†å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªç¢¶n");
+		Mono_Printf("?             Send Queue              ?            Receive Queue            ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?ID  Ct ACK   ID  Ct ACK    ID  Ct ACK?ID  Rd ACK    ID  Rd ACK   ID  Rd ACKç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("æ»¥å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªç‰§å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ª?);
 	}
 
 	/*
@@ -856,31 +856,31 @@ void CommQueueClass::Mono_Debug_Print2(int refresh)
 	*/
 	if (refresh) {
 		Mono_Clear_Screen ();
-		Mono_Printf("ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿\n");
-		Mono_Printf("³                                                                             ³\n");
-		Mono_Printf("³                                                                             ³\n");
-		Mono_Printf("³                                                                             ³\n");
-		Mono_Printf("ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´\n");
-		Mono_Printf("³              Send Queue              ³             Receive Queue            ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³ ID  Ct Type   Data  Name         ACK ³ ID  Rd Type   Data  Name         ACK ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("³                                      ³                                      ³\n");
-		Mono_Printf("ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ");
+		Mono_Printf("è°€å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªç¸—n");
+		Mono_Printf("?                                                                            ç ›n");
+		Mono_Printf("?                                                                            ç ›n");
+		Mono_Printf("?                                                                            ç ›n");
+		Mono_Printf("åªšå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªç©†å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªç¢¶n");
+		Mono_Printf("?             Send Queue              ?            Receive Queue            ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?ID  Ct Type   Data  Name         ACK ?ID  Rd Type   Data  Name         ACK ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("?                                     ?                                     ç ›n");
+		Mono_Printf("æ»¥å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªç‰§å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ª?);
 	}
 
 	/*

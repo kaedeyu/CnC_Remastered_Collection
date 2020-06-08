@@ -1,4 +1,4 @@
-//
+ï»¿//
 // Copyright 2020 Electronic Arts Inc.
 //
 // TiberianDawn.DLL and RedAlert.dll and corresponding source code is free 
@@ -416,26 +416,26 @@ void BuildingClass::Debug_Dump(MonoClass *mono) const
 	Validate();
 	mono->Set_Cursor(0, 0);
 	mono->Print(
-		"ÚName:ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂMission:ÄÄÄÂTarCom:ÂÄÄÄÄÄÄÄÂRadio:ÂCoord:ÄÄÂÄÄÄÄÄÄÄÄÂSt:Ä¿\n"
-		"³                   ³           ³       ³       ³      ³        ³        ³    ³\n"
-		"ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂNÂYÂHealth:ÄÂÄÄÄÁÄÂTurret:ÂÄÄÄÄÄÁÂÄBuilding:ÄÄÂCargo:ÄÄÄÄÁÄÄÄÄ´\n"
-		"³Active........³ ³ ³        ³     ³       ³      ³            ³               ³\n"
-		"³Limbo.........³ ³ ÃÄÄÄÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´\n"
-		"³Owned.........³ ³ ³Last Message:                                             ³\n"
-		"³Discovered....³ ³ ÃTimer:ÂArm:ÂÄÄÄÄÄÄÂTiberium:ÂFlash:ÂStage:ÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ\n"
-		"³Selected......³ ³ ³      ³    ³      ³         ³      ³      ³                \n"
-		"³Teathered.....³ ³ ÃÄÄÄÄÄÄÁÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÙ                \n"
-		"³Locked on Map.³ ³ ³                                                           \n"
-		"³Is A Loaner...³ ³ ³                                                           \n"
-		"³              ³ ³ ³                                                           \n"
-		"³              ³ ³ ³                                                           \n"
-		"³              ³ ³ ³                                                           \n"
-		"³Repairing.....³ ³ ³                                                           \n"
-		"³              ³ ³ ³                                                           \n"
-		"³              ³ ³ ³                                                           \n"
-		"³Recoiling.....³ ³ ³                                                           \n"
-		"³To Display....³ ³ ³                                                           \n"
-		"ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÁÄÙ                                                           \n");
+		"è´œame:å“ªå“ªå“ªå“ªå“ªå“ªå“ªç¿¸ission:å“ªç©†TarCom:å±¥å“ªå“ªå“ªç¿¿adio:ç¿ªoord:å“ªå±¥å“ªå“ªå“ªç©†St:ç›®\n"
+		"?                  ?          ?      ?      ?     ?       ?       ?   ç ›n"
+		"åªšå“ªå“ªå“ªå“ªå“ªå“ªç©†Nè€ç¿²ealth:ç©†å“ªç‰§ç©†Turret:å±¥å“ªå“ªè°…è…‚uilding:å“ªç¿ªargo:å“ªå“ªèŠå“ªæ‹‡\n"
+		"çŸ¨ctive........???       ?    ?      ?     ?           ?              ç ›n"
+		"çŸ»imbo.........??åªšå“ªå“ªå“ªç‰§å“ªå“ªç‰§å“ªå“ªå“ªç‰§å“ªå“ªå“ªèŠå“ªå“ªå“ªå“ªå“ªç‰§å“ªå“ªå“ªå“ªå“ªå“ªå“ªæ‹‡\n"
+		"ç „wned.........??çŸ»ast Message:                                             ç ›n"
+		"çŸ°iscovered....??è‚¨imer:ç¿§rm:å±¥å“ªå“ªç©†Tiberium:ç¿­lash:è€‚tage:å±¥å“ªå“ªå“ªå“ªå“ªå“ªå“ªè³Šn"
+		"ç ˆelected......???     ?   ?     ?        ?     ?     ?               \n"
+		"ç Šeathered.....??åªšå“ªå“ªç‰§å“ªå“ªèŠå“ªå“ªç‰§å“ªå“ªå“ªå“ªç‰§å“ªå“ªå“ªèŠå“ªå“ªé¦                \n"
+		"çŸ»ocked on Map.???                                                          \n"
+		"çŸ·s A Loaner...???                                                          \n"
+		"?             ???                                                          \n"
+		"?             ???                                                          \n"
+		"?             ???                                                          \n"
+		"ç ‡epairing.....???                                                          \n"
+		"?             ???                                                          \n"
+		"?             ???                                                          \n"
+		"ç ‡ecoiling.....???                                                          \n"
+		"ç Šo Display....???                                                          \n"
+		"æ»¥å“ªå“ªå“ªå“ªå“ªå“ªç‰§ç‰§é¦                                                           \n");
 	mono->Set_Cursor(1, 1);mono->Printf("%s:%s", House->Class->IniName, Class->IniName);
 	mono->Set_Cursor(35, 3);mono->Printf("%02X:%02X", PrimaryFacing.Current(), PrimaryFacing.Desired());
 	mono->Set_Cursor(50, 3);

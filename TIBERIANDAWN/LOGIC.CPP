@@ -1,4 +1,4 @@
-//
+ï»¿//
 // Copyright 2020 Electronic Arts Inc.
 //
 // TiberianDawn.DLL and RedAlert.dll and corresponding source code is free 
@@ -74,20 +74,20 @@ void LogicClass::Debug_Dump(MonoClass *mono) const
 
 	mono->Set_Cursor(21, 9);
 	mono->Print(
-		"ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿\r"
-		"³Units.....³   ³Frame Rate:      Avg:      Frame:        ³\r"
-		"³Infantry..³   ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´\r"
-		"³Aircraft..³   ³                                         ³\r"
-		"³Buildings.³   ³                                         ³\r"
-		"³Terrain...³   Ã                                         ´\r"
-		"³Bullets...³   ³                                         ³\r"
-		"³Anims.....³   ³                                         ³\r"
-		"³Teams.....³   Ã                                        Ä´\r"
-		"³Triggers..³   ³                                         ³\r"
-		"³Factories.³   ³                                         ³\r"
-		"³          ³   Ã                                         ´\r"
-		"³          ³   ³                                         ³\r"
-		"ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄ´Spare CPU TimeÃÄÄÄÄÄÄÄÄÄÄÄÄÙ\r");
+		"è°€å“ªå“ªå“ªå“ªç©†å“ªç©†å“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªç›®\r"
+		"ç ‹nits.....?  çŸ²rame Rate:      Avg:      Frame:        ç ›r"
+		"çŸ·nfantry..?  åªšå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªå“ªç¢¶r"
+		"çŸ¨ircraft..?  ?                                        ç ›r"
+		"çŸªuildings.?  ?                                        ç ›r"
+		"ç Šerrain...?  ?                                        ç¢¶r"
+		"çŸªullets...?  ?                                        ç ›r"
+		"çŸ¨nims.....?  ?                                        ç ›r"
+		"ç Šeams.....?  ?                                       æ‹‡\r"
+		"ç Šriggers..?  ?                                        ç ›r"
+		"çŸ²actories.?  ?                                        ç ›r"
+		"?         ?  ?                                        ç¢¶r"
+		"?         ?  ?                                        ç ›r"
+		"æ»¥å“ªå“ªå“ªå“ªç‰§å“ªç‰§å“ªå“ªå“ªå“ªå“ªå“ªæ‹‡Spare CPU Timeåªšå“ªå“ªå“ªå“ªå“ªé¦\r");
 
 	_framecounter++;
 	mono->Set_Cursor(70, 10);mono->Printf("%ld", Frame);
